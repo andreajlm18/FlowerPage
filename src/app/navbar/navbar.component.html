@@ -1,0 +1,35 @@
+<head><link href="https://fonts.googleapis.com/css?family=Dancing+Script|Maven+Pro|Niconne|Pacifico&display=swap" rel="stylesheet"></head>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+          <a style="font-family: 'Pacifico', cursive;color:blanchedalmond;font-size: 33px;"class="navbar-brand" [routerLink]="['/home']" >Florelli</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a style="font-size: 28px;font-family: 'Niconne', cursive;" class="nav-link" [routerLink]="['/home']">Inicio
+
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a style="font-size: 28px;font-family: 'Niconne', cursive;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Ocasiones
+                  </a>
+                  <div style="font-size: 28px;font-family: 'Niconne', cursive;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a style="color: rgb(47, 37, 82);font-size: 28px;font-family: 'Niconne', cursive;" class="dropdown-item nav-link" [routerLink]="['/boda']" >Bodas</a>
+                    <a style="color: rgb(47, 37, 82);font-size: 28px;font-family: 'Niconne', cursive;" class="dropdown-item nav-link" [routerLink]="['/bautizos']">Bautizos</a>
+                    <a style="color: rgb(47, 37, 82);font-size: 28px;font-family: 'Niconne', cursive;" class="dropdown-item nav-link" [routerLink]="['/funerales']">Funerales</a>
+                    <a style="color: rgb(47, 37, 82);font-size: 28px;font-family: 'Niconne', cursive;" class="dropdown-item nav-link" [routerLink]="['/otros']">Otros</a>
+                    
+                  </div>
+                </li>
+             
+              <li class="nav-item">
+                <a style="font-size: 28px;font-family: 'Niconne', cursive;"class="nav-link" [routerLink]="['/contacto']">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
